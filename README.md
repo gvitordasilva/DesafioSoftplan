@@ -67,19 +67,20 @@ DELETE	/products/{id} - Excluir produto
 POST /api/v1/categories
 Content-Type: application/json
 
-```{
+```
+{
   "name": "Eletrônicos",
   "description": "Dispositivos e gadgets"
 }
 
 **Response**
-```{
+{
   "id": 1,
   "name": "Eletrônicos",
   "description": "Dispositivos e gadgets",
   "createdAt": "2023-10-05T10:00:00",
   "updatedAt": "2023-10-05T10:00:00"
-}
+}```
 
 **Criar Produto**
 
@@ -94,7 +95,7 @@ Content-Type: application/json
 }
 
 **Response**
-```{
+{
   "id": 1,
   "name": "Fone Bluetooth",
   "description": "Fone com cancelamento de ruído",
@@ -108,7 +109,7 @@ Content-Type: application/json
     "createdAt": "2023-10-05T10:00:00",
     "updatedAt": "2023-10-05T10:00:00"
   }
-}
+}```
 
 ## Executando Testes
 
